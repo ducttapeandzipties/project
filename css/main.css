@@ -1,0 +1,95 @@
+/** {
+  border: 1px black solid;
+}*/
+
+
+/*GENERAL ################################# */
+
+/*HEADER ################################# */
+
+header {
+  float: left;
+  background-color: skyblue;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+header a {
+  text-decoration: none;
+}
+
+#main_nav {
+  float: right;
+  padding-right: 20px;
+}
+
+#logo {
+  float: left;
+  padding-left: 20px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  padding: 0 10px 0 0;
+}
+
+
+/*BODY ################################# */
+
+/*body {
+  font-family: 'Open Sans', Sans Serif;
+}*/
+/*need google font line in html*/
+
+body {
+  background-color: #fff;
+  color: black;
+}
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%
+  display:inline-block;
+  clear: both;
+}
+
+.bubbles {
+  color: white;
+  padding: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-color: steelblue;
+  border-radius: 15px;
+}
+
+#cover_photo {
+  /*width: 200px;
+  height: 100px;*/
+  margin-right: 20px;
+  float: left;
+  border-radius: 15px;
+}
+
+
+/*ABOUT.HTML ################################# */
+
+.galleryImg {
+  height: 40%;
+  width: 40%;
+}
+
+/*CONTACT.HTML ################################# */
+
+
+/*FOOTER ################################# */
+
+footer {
+  /*center footer - may want to use different method*/
+  margin: auto;
+  width: 25%;
+}
