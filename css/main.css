@@ -85,6 +85,24 @@ body {
 
 /*CONTACT.HTML ################################# */
 
+#phone {
+  width: 200;
+  height: 100;
+  float: left;
+  border: 1px black;
+}
+
+#facebook {
+  width: 200;
+  height: 100;
+  float: right;
+}
+
+#email {
+  width: 200;
+  height: 100;
+  float:left;
+}
 
 /*FOOTER ################################# */
 
