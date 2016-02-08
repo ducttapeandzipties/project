@@ -104,6 +104,18 @@ body {
   float:left;
 }
 
+#phone2 {
+  float: right;
+}
+
+#facebook2 {
+  float: left;
+}
+
+#email2 {
+  float: right;
+}
+
 /*FOOTER ################################# */
 
 footer {
