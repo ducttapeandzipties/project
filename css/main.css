@@ -5,6 +5,13 @@
 
 /*GENERAL ################################# */
 
+img {
+  max-width: 100%;
+}
+.bubbles h1 {
+  text-align: center;
+}
+
 /*HEADER ################################# */
 
 header {
@@ -21,11 +28,16 @@ header a {
 #main_nav {
   float: right;
   padding-right: 20px;
+  font-family: 'Passion One', cursive;
+  font-size: 1.75em;
 }
 
 #logo {
   float: left;
   padding-left: 20px;
+  /*font-family: 'Open Sans', Sans Serif;*/
+  font-family: 'Lobster', cursive;
+
 }
 
 nav ul {
@@ -40,10 +52,9 @@ nav li {
 
 /*BODY ################################# */
 
-/*body {
+body {
   font-family: 'Open Sans', Sans Serif;
-}*/
-/*need google font line in html*/
+}
 
 body {
   background-color: #fff;
@@ -78,42 +89,26 @@ body {
 
 /*ABOUT.HTML ################################# */
 
-.galleryImg {
-  height: 40%;
-  width: 40%;
+#gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#gallery li {
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+  background-color: #bdc3c7;
+  color: white;
 }
 
 /*CONTACT.HTML ################################# */
 
-#phone {
-  width: 200;
-  height: 100;
-  float: left;
-  border: 1px black;
-}
-
-#facebook {
-  width: 200;
-  height: 100;
-  float: right;
-}
-
-#email {
-  width: 200;
-  height: 100;
-  float:left;
-}
-
-#phone2 {
-  float: right;
-}
-
-#facebook2 {
-  float: left;
-}
-
-#email2 {
-  float: right;
+#contactInfo li {
+  list-style: none;
+  font-family: 'Passion One', cursive;
+  font-size: 1.5em;
 }
 
 /*FOOTER ################################# */
