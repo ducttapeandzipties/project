@@ -8,21 +8,27 @@
 img {
   max-width: 100%;
 }
-.bubbles h1 {
-  text-align: center;
+
+a {
+  color: #262216;
 }
 
 /*HEADER ################################# */
 
+
+/*HEADER COLOR @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
 header {
   float: left;
-  background-color: skyblue;
+  background-color: #252839;
   border-radius: 15px;
   margin-bottom: 20px;
   width: 100%;
 }
+
+/*HEADER LINKS COLOR @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
 header a {
   text-decoration: none;
+  color: #f2b632;
 }
 
 #main_nav {
@@ -56,8 +62,10 @@ body {
   font-family: 'Open Sans', Sans Serif;
 }
 
+
+/*BODY COLOR @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
 body {
-  background-color: #fff;
+  background-color: #b5b5b7;
   color: black;
 }
 
@@ -69,13 +77,19 @@ body {
   clear: both;
 }
 
+
+/*BUBBLES COLOR @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
 .bubbles {
-  color: white;
+  color: #b5b5b7;
   padding: 20px;
   margin-top: 40px;
   margin-bottom: 40px;
-  background-color: steelblue;
+  background-color: #677077;
   border-radius: 15px;
+}
+
+.bubbles h1 {
+  text-align: center;
 }
 
 #cover_photo {
@@ -100,7 +114,8 @@ body {
   width: 45%;
   margin: 2.5%;
   background-color: #bdc3c7;
-  color: white;
+  color: #252839;
+  text-align: center;
 }
 
 /*CONTACT.HTML ################################# */
@@ -118,4 +133,59 @@ footer {
   /*center footer - may want to use different method*/
   margin: auto;
   width: 25%;
+  text-align: center;
+  display: block;
 }
+
+
+/*RESPONSIVE ################################# */
+
+
+/*MOBILE SITE*/
+@media screen and (max-width: 480px){
+
+  /*body {
+    background-color: black;
+    color: black;
+  }*/
+
+  #gallery li {
+    float: left;
+    width: 75%;
+    margin: 6.25%;
+  }
+
+  #contactInfo li {
+    font-size: 1.2em;
+    /*padding: 1%;*/
+  }
+
+  nav li {
+    /*background: black;*/
+    border-radius: 8px;
+    display: block;
+    margin: 3% auto 3% auto;
+    width: 80%;
+    border: 3px solid #b5b5b7;
+    padding: 10px;
+    text-align: center;
+  }
+
+  header {
+    float: none;
+  }
+  #main_nav {
+    float: none;
+    font-size: 1.2em;
+  }
+  #logo {
+    font-size: .7em;
+    display: block;
+  }
+}
+
+
+
+/*nav menu
+center footer
+*/
