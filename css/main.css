@@ -160,6 +160,7 @@ footer {
     /*padding: 1%;*/
   }
 
+
   nav li {
     /*background: black;*/
     border-radius: 8px;
@@ -169,22 +170,26 @@ footer {
     border: 3px solid #b5b5b7;
     padding: 10px;
     text-align: center;
+    clear: both;
   }
 
   header {
     float: none;
+    padding-bottom: 2%;
   }
   #main_nav {
     float: none;
     font-size: 1.2em;
   }
   #logo {
-    font-size: .7em;
+    font-size: .8em;
     display: block;
   }
 }
 
-
+footer {
+  font-size: .7em;
+}
 
 /*nav menu
 center footer
