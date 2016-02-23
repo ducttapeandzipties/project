@@ -55,6 +55,10 @@ nav li {
   padding: 0 10px 0 0;
 }
 
+nav a {
+  display: block;
+}
+
 
 /*BODY ################################# */
 
