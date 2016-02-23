@@ -72,9 +72,9 @@ body {
 #wrapper {
   max-width: 940px;
   margin: 0 auto;
-  padding: 0 5%
+  /*padding: 0 5%
   display:inline-block;
-  clear: both;
+  clear: both;*/
 }
 
 
@@ -89,30 +89,29 @@ body {
   overflow: hidden;
 }
 
-.bubbles h1 {
+/*.bubbles h1 {
   text-align: center;
-}
+}*/
 
 #cover_photo {
-  /*width: 200px;
-  height: 100px;*/
-  margin-right: 20px;
+  margin-right: 2%;
   float: left;
   border-radius: 15px;
+  height: auto;
+  width: auto;
 }
 
 
 /*ABOUT.HTML ################################# */
 
 #gallery {
-  margin: 0;
-  padding: 0;
   list-style: none;
 }
 
 #gallery li {
   float: left;
   width: 45%;
+  height: auto;
   margin: 2.5%;
   background-color: #bdc3c7;
   color: #252839;
@@ -126,6 +125,11 @@ body {
   font-family: 'Passion One', cursive;
   font-size: 1.5em;
   padding: 1%;
+}
+
+#contactInfo img {
+  height: auto;
+  width: auto;
 }
 
 /*FOOTER ################################# */
@@ -143,7 +147,7 @@ footer {
 
 
 /*MOBILE SITE*/
-@media screen and (max-width: 480px){
+@media screen and (max-width: 750px){
 
   /*body {
     background-color: black;
@@ -158,7 +162,6 @@ footer {
 
   #contactInfo li {
     font-size: 1.2em;
-    /*padding: 1%;*/
   }
 
 
@@ -192,6 +195,22 @@ footer {
   font-size: .7em;
 }
 
-/*nav menu
-center footer
-*/
+/*@media screen and (max-width: 750px) and (min-width: 481px) {
+
+  #main_nav {
+    font-size: 1.5em;
+  }
+
+  nav li {
+    /*background: black;*/
+    border-radius: 8px;
+    display: block;
+    margin: 3% auto 3% auto;
+    width: 80%;
+    border: 3px solid #b5b5b7;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+  }
+
+}*/
