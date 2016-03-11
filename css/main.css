@@ -122,6 +122,21 @@ body {
   text-align: center;
 }
 
+/*flicker api gallery*/
+#photos {
+  list-style: none;
+}
+
+#photos li {
+  float: left;
+  width: 45%;
+  height: auto;
+  margin: 2.5%;
+  background-color: #bdc3c7;
+  color: #252839;
+  text-align: center;
+}
+
 /*CONTACT.HTML ################################# */
 
 #contactInfo li {
